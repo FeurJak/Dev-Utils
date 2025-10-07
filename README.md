@@ -74,9 +74,3 @@ python3 python/generate_diff_doc.py main my-feature-branch -o diff_documentation
 ```
 
 This will generate a file named `diff_documentation.md` containing the diff between the `main` and `my-feature-branch` branches.
-
-## Prerequisites and Caveats
-
-- **Git Requirement:** The script relies on the `git` command-line tool. You must have Git installed and accessible in your system's PATH.
-- **Repository Context:** The script must be run from within a Git repository.
-- **Error Handling:** The script includes basic error handling. It will exit if the `git` command is not found or if any of the `git` commands fail (e.g., if you provide an invalid reference).
