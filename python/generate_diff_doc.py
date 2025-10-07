@@ -239,13 +239,13 @@ if __name__ == "__main__":
     parser.add_argument(
         'feature_ref',
         type=str,
-        help="The feature branch or commit hash with the new changes (e.g., 'v1.16.3-tool-0.0.1' or 'e4f5g6h')."
+        help="The feature branch or commit hash with the new changes (e.g., 'v1.16.3 or 'e4f5g6h')."
     )
     parser.add_argument(
         '-o', '--output',
         type=str,
-        default='TOOL_CHANGES.md',
-        help="The name of the output markdown file (default: TOOL_CHANGES.md)."
+        default='CHANGES.md',
+        help="The name of the output markdown file (default: CHANGES.md)."
     )
 
     args = parser.parse_args()
