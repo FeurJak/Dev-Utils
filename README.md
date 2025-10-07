@@ -65,7 +65,7 @@ python3 python/generate_diff_doc.py <base_ref> <feature_ref> [options]
 
 **Options:**
 
-- `-o, --output`: The name of the output markdown file. Defaults to `TOOL_CHANGES.md`.
+- `-o, --output`: The name of the output markdown file. Defaults to `CHANGES.md`.
 
 **Example:**
 
